@@ -1,11 +1,13 @@
+//Jared Williams
+
 var bool = confirm("shall we then?");
 var condition = bool && "carl";
 document.writeln(condition);
 if (condition) {
-    document.writeln("true");schmoo
+    document.writeln("true");
 }
 else {
-    document.writ;;;;jhyu
+    document.write("false")
 }
 
 var switchStatements = function() {
