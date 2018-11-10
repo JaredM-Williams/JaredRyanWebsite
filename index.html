@@ -1,13 +1,78 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <meta charset="UTF-8">
+    <style>
+        .navbar.custom-navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+        .navbar-nav li a:hover {
+            color: #1abc9c !important;
+        }
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        .bg-1 {
+            background-color: #2F2FA2; /* French Laundry Blue in Hex */
+            color: #ffffff;
+        }
+        .bg-2 {
+            background-color: #778899; /* Comfortably Tan in Hex */
+            color: #ffffff;
+        }
+    </style>
     <meta name="author" content="Jared Williams">
     <meta name="description" content="A homepage for my hall at JMU">
-    <title>Hanson Hall's Website!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <title style="font-family:verdana;">Hanson Hall's Website!</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body style="background-color:powderblue;">
-    <h1>Hanson Hall, the best hall in the world!</h1>
-    <img src="Hanson.jpeg">
+<body>
+    <nav class="navbar custom-navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">The Hall</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">PEOPLE</a></li>
+                    <li><a href="#">PICS</a></li>
+                    <li><a href="#">LOCATION</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid bg-1 text-center">
+        <h1>Hanson Hall at JMU</h1>
+        <img src="Hanson.jpeg" class="img-circle" alt="(Image failed to load)" width="350" height="350">
+        <h1>The best hall in the U N I V E R S E</h1>
+    </div>
+    <div class="container-fluid bg-2 text-center">
+        <h1>Do you agree?</h1>
+        <a href="#" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-ok"></span> Yup
+        </a>
+    </div>
 </body>
 </html>
