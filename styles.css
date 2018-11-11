@@ -6,19 +6,75 @@
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+    background-color: #ffffff; /* white */
 }
 .navbar-nav li a:hover {
-    color: #1abc9c !important;
+    color: #1abc9c !important; /* light green */
 }
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
 }
-.bg-1 {
-    background-color: #2F2FA2; /* French Laundry Blue in Hex */
-    color: #ffffff;
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777; /* light grey */
 }
-.bg-2 {
-    background-color: #778899; /* Comfortably Tan in Hex */
-    color: #ffffff;
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bgimg-1 {
+    background-image: url("Hanson.jpeg");
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    background-image: url("duke_dog.jpg");
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url("football_fans.jpg");
+    min-height: 400px;
+}
+.banner {
+    color: #777; /* light grey */
+    background-color:white;
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;"
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000; /* black */
+
+}
+.pushed {
+    padding-top: 300px;
+}
+.caption span.border {
+    background-color: #111; /* black */
+    color: #fff; /* white */
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111; /* white */
 }
